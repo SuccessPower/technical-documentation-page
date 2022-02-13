@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+  }
+  /* h1 {
+      color: white;
+  } */
+  /* Header/Blog Title */
+  .header {
+    padding: 10px;
+    text-align: left;
+    background: white;
+  }
+  
+  .header {
+    font-size: 25px;
+  }
+  
+  #heading {
+      font-size: 25;
+  }
+  #navbar {
+    width: 300px;
+    position: fixed;
+    /* z-index: 1; */
+    /* top: 20px; */
+    /* left: 10px; */
+    /* background: #eee; */
+    /* overflow-x: hidden; */
+    /* padding: 8px 0; */
+  }
+  
+  #navbar a {
+    /* padding: 6px 8px 6px 16px; */
+    text-decoration: none;
+    font-size: 20px;
+    /* color: #2196F3; */
+    display: block;
+  }
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: static;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    width: 25%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 75%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+  }
+   
+  /* Fake image */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
